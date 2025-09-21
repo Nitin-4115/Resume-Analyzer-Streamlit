@@ -2,7 +2,7 @@ streamlit
 pydantic
 thefuzz==0.22.1
 sentence-transformers==2.2.2
-numpy>=1.23
+numpy==1.23.5
 passlib==1.7.4
 python-dotenv==1.0.1
 PyMuPDF==1.21.1
