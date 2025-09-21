@@ -1,0 +1,11 @@
+streamlit
+sqlite3
+chromadb
+pydantic
+thefuzz
+sentence-transformers
+numpy
+passlib
+python-dotenv
+PyMuPDF
+python-docx

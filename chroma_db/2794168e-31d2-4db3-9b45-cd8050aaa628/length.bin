@@ -1,0 +1,12 @@
+
+        CREATE TABLE IF NOT EXISTS analysis_results (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            job_description TEXT NOT NULL,
+            resume_filename TEXT NOT NULL,
+            final_score REAL NOT NULL,
+            verdict TEXT,
+            identified_skills TEXT,
+            found_skills TEXT,
+            analysis_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+        )
+ 
